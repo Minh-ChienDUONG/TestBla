@@ -16,6 +16,147 @@ import static org.junit.jupiter.api.Assertions.*;
 class PerformanceServiceTest {
 
     @Test
+    void process_turnLeft(){
+        Mower m1 = new Mower(1, 0, "L", new Position(1, 1, "W"), new Position(1, 1, "W"));
+        Mower m2 = new Mower(2, 0, "L", new Position(2, 2, "S"), new Position(2, 2, "S"));
+        Mower m3 = new Mower(3, 0, "L", new Position(3, 3, "E"), new Position(3, 3, "E"));
+        Mower m4 = new Mower(4, 0, "L", new Position(4, 4, "N"), new Position(4, 4, "N"));
+        List<Mower> lstMower = Arrays.asList(m1,m2,m3,m4);
+
+        int WIDTH = 5;
+        int LENGTH = 5;
+
+        PerformanceService perform = new PerformanceService();
+        List<Position> lstPositions = perform.process(lstMower,WIDTH, LENGTH);
+
+        Assertions.assertThat(lstPositions.get(0)).isNotNull();
+        Assertions.assertThat(lstPositions.get(0).getX()).isEqualTo(1);
+        Assertions.assertThat(lstPositions.get(0).getY()).isEqualTo(1);
+        Assertions.assertThat(lstPositions.get(0).getOrientation()).isEqualTo("S");
+
+        Assertions.assertThat(lstPositions.get(1)).isNotNull();
+        Assertions.assertThat(lstPositions.get(1).getX()).isEqualTo(2);
+        Assertions.assertThat(lstPositions.get(1).getY()).isEqualTo(2);
+        Assertions.assertThat(lstPositions.get(1).getOrientation()).isEqualTo("E");
+
+        Assertions.assertThat(lstPositions.get(2)).isNotNull();
+        Assertions.assertThat(lstPositions.get(2).getX()).isEqualTo(3);
+        Assertions.assertThat(lstPositions.get(2).getY()).isEqualTo(3);
+        Assertions.assertThat(lstPositions.get(2).getOrientation()).isEqualTo("N");
+
+        Assertions.assertThat(lstPositions.get(3)).isNotNull();
+        Assertions.assertThat(lstPositions.get(3).getX()).isEqualTo(4);
+        Assertions.assertThat(lstPositions.get(3).getY()).isEqualTo(4);
+        Assertions.assertThat(lstPositions.get(3).getOrientation()).isEqualTo("W");
+    }
+
+    @Test
+    void process_turnRight(){
+        Mower m1 = new Mower(1, 0, "R", new Position(1, 1, "W"), new Position(1, 1, "W"));
+        Mower m2 = new Mower(2, 0, "R", new Position(2, 2, "S"), new Position(2, 2, "S"));
+        Mower m3 = new Mower(3, 0, "R", new Position(3, 3, "E"), new Position(3, 3, "E"));
+        Mower m4 = new Mower(4, 0, "R", new Position(4, 4, "N"), new Position(4, 4, "N"));
+        List<Mower> lstMower = Arrays.asList(m1,m2,m3,m4);
+
+        int WIDTH = 5;
+        int LENGTH = 5;
+
+        PerformanceService perform = new PerformanceService();
+        List<Position> lstPositions = perform.process(lstMower,WIDTH, LENGTH);
+
+        Assertions.assertThat(lstPositions.get(0)).isNotNull();
+        Assertions.assertThat(lstPositions.get(0).getX()).isEqualTo(1);
+        Assertions.assertThat(lstPositions.get(0).getY()).isEqualTo(1);
+        Assertions.assertThat(lstPositions.get(0).getOrientation()).isEqualTo("N");
+
+        Assertions.assertThat(lstPositions.get(1)).isNotNull();
+        Assertions.assertThat(lstPositions.get(1).getX()).isEqualTo(2);
+        Assertions.assertThat(lstPositions.get(1).getY()).isEqualTo(2);
+        Assertions.assertThat(lstPositions.get(1).getOrientation()).isEqualTo("W");
+
+        Assertions.assertThat(lstPositions.get(2)).isNotNull();
+        Assertions.assertThat(lstPositions.get(2).getX()).isEqualTo(3);
+        Assertions.assertThat(lstPositions.get(2).getY()).isEqualTo(3);
+        Assertions.assertThat(lstPositions.get(2).getOrientation()).isEqualTo("S");
+
+        Assertions.assertThat(lstPositions.get(3)).isNotNull();
+        Assertions.assertThat(lstPositions.get(3).getX()).isEqualTo(4);
+        Assertions.assertThat(lstPositions.get(3).getY()).isEqualTo(4);
+        Assertions.assertThat(lstPositions.get(3).getOrientation()).isEqualTo("E");
+    }
+
+    @Test
+    void process_moveForward(){
+        Mower m1 = new Mower(1, 0, "F", new Position(1, 1, "W"), new Position(1, 1, "W"));
+        Mower m2 = new Mower(2, 0, "F", new Position(2, 2, "S"), new Position(2, 2, "S"));
+        Mower m3 = new Mower(3, 0, "F", new Position(3, 3, "E"), new Position(3, 3, "E"));
+        Mower m4 = new Mower(4, 0, "F", new Position(4, 4, "N"), new Position(4, 4, "N"));
+        List<Mower> lstMower = Arrays.asList(m1,m2,m3,m4);
+
+        int WIDTH = 5;
+        int LENGTH = 5;
+
+        PerformanceService perform = new PerformanceService();
+        List<Position> lstPositions = perform.process(lstMower,WIDTH, LENGTH);
+
+        Assertions.assertThat(lstPositions.get(0)).isNotNull();
+        Assertions.assertThat(lstPositions.get(0).getX()).isEqualTo(0);
+        Assertions.assertThat(lstPositions.get(0).getY()).isEqualTo(1);
+        Assertions.assertThat(lstPositions.get(0).getOrientation()).isEqualTo("W");
+
+        Assertions.assertThat(lstPositions.get(1)).isNotNull();
+        Assertions.assertThat(lstPositions.get(1).getX()).isEqualTo(2);
+        Assertions.assertThat(lstPositions.get(1).getY()).isEqualTo(1);
+        Assertions.assertThat(lstPositions.get(1).getOrientation()).isEqualTo("S");
+
+        Assertions.assertThat(lstPositions.get(2)).isNotNull();
+        Assertions.assertThat(lstPositions.get(2).getX()).isEqualTo(4);
+        Assertions.assertThat(lstPositions.get(2).getY()).isEqualTo(3);
+        Assertions.assertThat(lstPositions.get(2).getOrientation()).isEqualTo("E");
+
+        Assertions.assertThat(lstPositions.get(3)).isNotNull();
+        Assertions.assertThat(lstPositions.get(3).getX()).isEqualTo(4);
+        Assertions.assertThat(lstPositions.get(3).getY()).isEqualTo(5);
+        Assertions.assertThat(lstPositions.get(3).getOrientation()).isEqualTo("N");
+    }
+
+    @Test
+    void process_move_outOfLawnSize(){
+        Mower m1 = new Mower(1, 0, "FFFFFFF", new Position(2, 3, "N"), new Position(2, 3, "N"));
+        Mower m2 = new Mower(2, 0, "FFFFFFFF", new Position(5, 1, "E"), new Position(5, 1, "E"));
+        Mower m3 = new Mower(3, 0, "FFFFFFFFFFF", new Position(1, 4, "S"), new Position(1, 4, "S"));
+        Mower m4 = new Mower(4, 0, "FFFFFFFF", new Position(1, 1, "W"), new Position(1, 1, "W"));
+        List<Mower> lstMower = Arrays.asList(m1,m2,m3,m4);
+
+        int WIDTH = 6;
+        int LENGTH = 4;
+
+        PerformanceService perform = new PerformanceService();
+        List<Position> lstPositions = perform.process(lstMower,WIDTH, LENGTH);
+
+        Assertions.assertThat(lstPositions.get(0)).isNotNull();
+        Assertions.assertThat(lstPositions.get(0).getX()).isEqualTo(2);
+        Assertions.assertThat(lstPositions.get(0).getY()).isEqualTo(4);
+        Assertions.assertThat(lstPositions.get(0).getOrientation()).isEqualTo("N");
+
+        Assertions.assertThat(lstPositions.get(1)).isNotNull();
+        Assertions.assertThat(lstPositions.get(1).getX()).isEqualTo(6);
+        Assertions.assertThat(lstPositions.get(1).getY()).isEqualTo(1);
+        Assertions.assertThat(lstPositions.get(1).getOrientation()).isEqualTo("E");
+
+        Assertions.assertThat(lstPositions.get(2)).isNotNull();
+        Assertions.assertThat(lstPositions.get(2).getX()).isEqualTo(1);
+        Assertions.assertThat(lstPositions.get(2).getY()).isEqualTo(0);
+        Assertions.assertThat(lstPositions.get(2).getOrientation()).isEqualTo("S");
+
+        Assertions.assertThat(lstPositions.get(3)).isNotNull();
+        Assertions.assertThat(lstPositions.get(3).getX()).isEqualTo(0);
+        Assertions.assertThat(lstPositions.get(3).getY()).isEqualTo(1);
+        Assertions.assertThat(lstPositions.get(3).getOrientation()).isEqualTo("W");
+    }
+
+
+    @Test
     void process_oneMower() {
         Mower m1 = new Mower(1, 0, "LFLF", new Position(1, 2, "N"), new Position(1, 2, "N"));
         List<Mower> lstMower = Collections.singletonList(m1);
@@ -81,41 +222,6 @@ class PerformanceServiceTest {
         Assertions.assertThat(lstPositions.get(2).getX()).isEqualTo(4);
         Assertions.assertThat(lstPositions.get(2).getY()).isEqualTo(0);
         Assertions.assertThat(lstPositions.get(2).getOrientation()).isEqualTo("W");
-    }
-
-    @Test
-    void process_move_outOfLawnSize(){
-        Mower m1 = new Mower(1, 0, "FFFFFFF", new Position(2, 3, "N"), new Position(2, 3, "N"));
-        Mower m2 = new Mower(2, 0, "FFFFFFFF", new Position(5, 1, "E"), new Position(5, 1, "E"));
-        Mower m3 = new Mower(3, 0, "FFFFFFFFFFF", new Position(1, 4, "S"), new Position(1, 4, "S"));
-        Mower m4 = new Mower(4, 0, "FFFFFFFF", new Position(1, 1, "W"), new Position(1, 1, "W"));
-        List<Mower> lstMower = Arrays.asList(m1,m2,m3,m4);
-
-        int WIDTH = 6;
-        int LENGTH = 4;
-
-        PerformanceService perform = new PerformanceService();
-        List<Position> lstPositions = perform.process(lstMower,WIDTH, LENGTH);
-
-        Assertions.assertThat(lstPositions.get(0)).isNotNull();
-        Assertions.assertThat(lstPositions.get(0).getX()).isEqualTo(2);
-        Assertions.assertThat(lstPositions.get(0).getY()).isEqualTo(4);
-        Assertions.assertThat(lstPositions.get(0).getOrientation()).isEqualTo("N");
-
-        Assertions.assertThat(lstPositions.get(1)).isNotNull();
-        Assertions.assertThat(lstPositions.get(1).getX()).isEqualTo(6);
-        Assertions.assertThat(lstPositions.get(1).getY()).isEqualTo(1);
-        Assertions.assertThat(lstPositions.get(1).getOrientation()).isEqualTo("E");
-
-        Assertions.assertThat(lstPositions.get(2)).isNotNull();
-        Assertions.assertThat(lstPositions.get(2).getX()).isEqualTo(1);
-        Assertions.assertThat(lstPositions.get(2).getY()).isEqualTo(0);
-        Assertions.assertThat(lstPositions.get(2).getOrientation()).isEqualTo("S");
-
-        Assertions.assertThat(lstPositions.get(3)).isNotNull();
-        Assertions.assertThat(lstPositions.get(3).getX()).isEqualTo(0);
-        Assertions.assertThat(lstPositions.get(3).getY()).isEqualTo(1);
-        Assertions.assertThat(lstPositions.get(3).getOrientation()).isEqualTo("W");
     }
 
     @Test

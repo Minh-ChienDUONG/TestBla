@@ -1,311 +1,265 @@
 	step: 1
- Mower1 2 4 S FFFFF nextIndex:1
-&Mower2 2 2 N FFFFFFFFFFF nextIndex:1
-!Mower3 1 3 S FFLLFR nextIndex:1
-	step: 2
- Mower1 2 4 S FFFFF nextIndex:2
-&Mower2 2 2 N FFFFFFFFFFF nextIndex:2
-!Mower3 1 2 S FFLLFR nextIndex:2
-	step: 3
- Mower1 2 4 S FFFFF nextIndex:3
-&Mower2 2 2 N FFFFFFFFFFF nextIndex:3
-!Mower3 1 2 E FFLLFR nextIndex:3
-	step: 4
- Mower1 2 4 S FFFFF nextIndex:4
-&Mower2 2 2 N FFFFFFFFFFF nextIndex:4
-!Mower3 1 2 N FFLLFR nextIndex:4
-	step: 5
- Mower1 2 4 S FFFFF nextIndex:5
-&Mower2 2 2 N FFFFFFFFFFF nextIndex:5
-!Mower3 1 3 N FFLLFR nextIndex:5
-	step: 6
- Mower1 2 4 S FFFFF nextIndex:6
-&Mower2 2 3 N FFFFFFFFFFF nextIndex:6
-!Mower3 1 3 E FFLLFR nextIndex:6
-	step: 7
- Mower1 2 4 S FFFFF nextIndex:7
-&Mower2 2 3 N FFFFFFFFFFF nextIndex:7
-!Mower3 1 3 E FFLLFR nextIndex:7
-	step: 8
- Mower1 2 4 S FFFFF nextIndex:8
-&Mower2 2 3 N FFFFFFFFFFF nextIndex:8
-!Mower3 1 3 E FFLLFR nextIndex:8
-	step: 9
- Mower1 2 4 S FFFFF nextIndex:9
-&Mower2 2 3 N FFFFFFFFFFF nextIndex:9
-!Mower3 1 3 E FFLLFR nextIndex:9
-
-step: 10
-!Mower1 2 4 S FFFFF nextIndex:10
-'Mower2 2 3 N FFFFFFFFFFF nextIndex:10
-"Mower3 1 3 E FFLLFR nextIndex:10
-
-step: 11
-!Mower1 2 4 S FFFFF nextIndex:11
-'Mower2 2 3 N FFFFFFFFFFF nextIndex:11
-"Mower3 1 3 E FFLLFR nextIndex:11
+Mower1 0 1 W F nextIndex:1
+Mower2 2 1 S F nextIndex:1
+Mower3 4 3 E F nextIndex:1
+Mower4 4 5 N F nextIndex:1
 Final Positions
-Mower1 2 4 S
-Mower2 2 3 N
-Mower3 1 3 E
+Mower1 0 1 W
+Mower2 2 1 S
+Mower3 4 3 E
+Mower4 4 5 N
 	step: 1
-Mower1 1 2 W LFLF nextIndex:1
-!Mower2 4 3 E FFRFFR nextIndex:1
-"Mower3 4 0 S FFRRLLR nextIndex:1
-$Mower4 2 5 N LRRLFFLLR nextIndex:1
+ Mower1 2 4 S FFFFF nextIndex:1
+&Mower2 2 2 N FFFFFFFFFFF nextIndex:1
+!Mower3 1 3 S FFLLFR nextIndex:1
 	step: 2
-Mower1 0 2 W LFLF nextIndex:2
-!Mower2 5 3 E FFRFFR nextIndex:2
-"Mower3 4 0 S FFRRLLR nextIndex:2
-$Mower4 2 5 E LRRLFFLLR nextIndex:2
+ Mower1 2 4 S FFFFF nextIndex:2
+&Mower2 2 2 N FFFFFFFFFFF nextIndex:2
+!Mower3 1 2 S FFLLFR nextIndex:2
 	step: 3
-Mower1 0 2 S LFLF nextIndex:3
-!Mower2 5 3 S FFRFFR nextIndex:3
-"Mower3 4 0 W FFRRLLR nextIndex:3
-$Mower4 2 5 S LRRLFFLLR nextIndex:3
+ Mower1 2 4 S FFFFF nextIndex:3
+&Mower2 2 2 N FFFFFFFFFFF nextIndex:3
+!Mower3 1 2 E FFLLFR nextIndex:3
 	step: 4
-Mower1 0 1 S LFLF nextIndex:4
-!Mower2 5 2 S FFRFFR nextIndex:4
-"Mower3 4 0 N FFRRLLR nextIndex:4
-$Mower4 2 5 E LRRLFFLLR nextIndex:4
+ Mower1 2 4 S FFFFF nextIndex:4
+&Mower2 2 2 N FFFFFFFFFFF nextIndex:4
+!Mower3 1 2 N FFLLFR nextIndex:4
 	step: 5
-Mower1 0 1 S LFLF nextIndex:5
-!Mower2 5 1 S FFRFFR nextIndex:5
-"Mower3 4 0 W FFRRLLR nextIndex:5
-$Mower4 3 5 E LRRLFFLLR nextIndex:5
+ Mower1 2 4 S FFFFF nextIndex:5
+&Mower2 2 2 N FFFFFFFFFFF nextIndex:5
+!Mower3 1 3 N FFLLFR nextIndex:5
 	step: 6
-Mower1 0 1 S LFLF nextIndex:6
-!Mower2 5 1 W FFRFFR nextIndex:6
-"Mower3 4 0 S FFRRLLR nextIndex:6
-$Mower4 4 5 E LRRLFFLLR nextIndex:6
+ Mower1 2 4 S FFFFF nextIndex:6
+&Mower2 2 3 N FFFFFFFFFFF nextIndex:6
+!Mower3 1 3 E FFLLFR nextIndex:6
 	step: 7
-Mower1 0 1 S LFLF nextIndex:7
-!Mower2 5 1 W FFRFFR nextIndex:7
-"Mower3 4 0 W FFRRLLR nextIndex:7
-$Mower4 4 5 N LRRLFFLLR nextIndex:7
+ Mower1 2 4 S FFFFF nextIndex:7
+&Mower2 2 3 N FFFFFFFFFFF nextIndex:7
+!Mower3 1 3 E FFLLFR nextIndex:7
 	step: 8
-Mower1 0 1 S LFLF nextIndex:8
-!Mower2 5 1 W FFRFFR nextIndex:8
-"Mower3 4 0 W FFRRLLR nextIndex:8
-$Mower4 4 5 W LRRLFFLLR nextIndex:8
+ Mower1 2 4 S FFFFF nextIndex:8
+&Mower2 2 3 N FFFFFFFFFFF nextIndex:8
+!Mower3 1 3 E FFLLFR nextIndex:8
 	step: 9
-Mower1 0 1 S LFLF nextIndex:9
-!Mower2 5 1 W FFRFFR nextIndex:9
-"Mower3 4 0 W FFRRLLR nextIndex:9
-$Mower4 4 5 N LRRLFFLLR nextIndex:9
+ Mower1 2 4 S FFFFF nextIndex:9
+&Mower2 2 3 N FFFFFFFFFFF nextIndex:9
+!Mower3 1 3 E FFLLFR nextIndex:9
+
+step: 10
+!Mower1 2 4 S FFFFF nextIndex:10
+'Mower2 2 3 N FFFFFFFFFFF nextIndex:10
+"Mower3 1 3 E FFLLFR nextIndex:10
+
+step: 11
+!Mower1 2 4 S FFFFF nextIndex:11
+'Mower2 2 3 N FFFFFFFFFFF nextIndex:11
+"Mower3 1 3 E FFLLFR nextIndex:11
 Final Positions
-Mower1 0 1 S
-Mower2 5 1 W
-Mower3 4 0 W
-Mower4 4 5 N
+Mower1 2 4 S
+Mower2 2 3 N
+Mower3 1 3 E
 	step: 1
-Mower1 1 2 W LFLF nextIndex:1
-!Mower2 4 3 E FFRFFR nextIndex:1
-"Mower3 4 0 S FFRRLLR nextIndex:1
-	step: 2
-Mower1 0 2 W LFLF nextIndex:2
-!Mower2 5 3 E FFRFFR nextIndex:2
-"Mower3 4 0 S FFRRLLR nextIndex:2
-	step: 3
-Mower1 0 2 S LFLF nextIndex:3
-!Mower2 5 3 S FFRFFR nextIndex:3
-"Mower3 4 0 W FFRRLLR nextIndex:3
-	step: 4
-Mower1 0 1 S LFLF nextIndex:4
-!Mower2 5 2 S FFRFFR nextIndex:4
-"Mower3 4 0 N FFRRLLR nextIndex:4
-	step: 5
-Mower1 0 1 S LFLF nextIndex:5
-!Mower2 5 1 S FFRFFR nextIndex:5
-"Mower3 4 0 W FFRRLLR nextIndex:5
-	step: 6
-Mower1 0 1 S LFLF nextIndex:6
-!Mower2 5 1 W FFRFFR nextIndex:6
-"Mower3 4 0 S FFRRLLR nextIndex:6
-	step: 7
-Mower1 0 1 S LFLF nextIndex:7
-!Mower2 5 1 W FFRFFR nextIndex:7
-"Mower3 4 0 W FFRRLLR nextIndex:7
+Mower1 1 1 S L nextIndex:1
+Mower2 2 2 E L nextIndex:1
+Mower3 3 3 N L nextIndex:1
+Mower4 4 4 W L nextIndex:1
 Final Positions
-Mower1 0 1 S
-Mower2 5 1 W
-Mower3 4 0 W
-	step: 1
-Mower1 2 4 S FF nextIndex:1
-Mower2 2 2 N FF nextIndex:1
-Mower3 1 3 E FF nextIndex:1
-	step: 2
-Mower1 2 4 S FF nextIndex:2
-Mower2 2 2 N FF nextIndex:2
-Mower3 1 3 E FF nextIndex:2
-Final Positions
-Mower1 2 4 S
-Mower2 2 2 N
-Mower3 1 3 E
+Mower1 1 1 S
+Mower2 2 2 E
+Mower3 3 3 N
+Mower4 4 4 W
+	step: 1
+Mower1 1 2 W LFLF nextIndex:1
+!Mower2 4 3 E FFRFFR nextIndex:1
+"Mower3 4 0 S FFRRLLR nextIndex:1
+	step: 2
+Mower1 0 2 W LFLF nextIndex:2
+!Mower2 5 3 E FFRFFR nextIndex:2
+"Mower3 4 0 S FFRRLLR nextIndex:2
+	step: 3
+Mower1 0 2 S LFLF nextIndex:3
+!Mower2 5 3 S FFRFFR nextIndex:3
+"Mower3 4 0 W FFRRLLR nextIndex:3
+	step: 4
+Mower1 0 1 S LFLF nextIndex:4
+!Mower2 5 2 S FFRFFR nextIndex:4
+"Mower3 4 0 N FFRRLLR nextIndex:4
+	step: 5
+Mower1 0 1 S LFLF nextIndex:5
+!Mower2 5 1 S FFRFFR nextIndex:5
+"Mower3 4 0 W FFRRLLR nextIndex:5
+	step: 6
+Mower1 0 1 S LFLF nextIndex:6
+!Mower2 5 1 W FFRFFR nextIndex:6
+"Mower3 4 0 S FFRRLLR nextIndex:6
+	step: 7
+Mower1 0 1 S LFLF nextIndex:7
+!Mower2 5 1 W FFRFFR nextIndex:7
+"Mower3 4 0 W FFRRLLR nextIndex:7
+Final Positions
+Mower1 0 1 S
+Mower2 5 1 W
+Mower3 4 0 W
 	step: 1
-Mower1 1 2 W LFLF nextIndex:1
+Mower1 2 4 S FF nextIndex:1
+Mower2 2 2 N FF nextIndex:1
+Mower3 1 3 E FF nextIndex:1
 	step: 2
-Mower1 0 2 W LFLF nextIndex:2
-	step: 3
-Mower1 0 2 S LFLF nextIndex:3
-	step: 4
-Mower1 0 1 S LFLF nextIndex:4
+Mower1 2 4 S FF nextIndex:2
+Mower2 2 2 N FF nextIndex:2
+Mower3 1 3 E FF nextIndex:2
 Final Positions
-Mower1 0 1 S
+Mower1 2 4 S
+Mower2 2 2 N
+Mower3 1 3 E
 	step: 1
 Mower1 1 2 W LFLF nextIndex:1
-!Mower2 4 3 E FFRFFR nextIndex:1
 	step: 2
 Mower1 0 2 W LFLF nextIndex:2
-!Mower2 5 3 E FFRFFR nextIndex:2
 	step: 3
 Mower1 0 2 S LFLF nextIndex:3
-!Mower2 5 3 S FFRFFR nextIndex:3
 	step: 4
 Mower1 0 1 S LFLF nextIndex:4
-!Mower2 5 2 S FFRFFR nextIndex:4
-	step: 5
-Mower1 0 1 S LFLF nextIndex:5
-!Mower2 5 1 S FFRFFR nextIndex:5
-	step: 6
-Mower1 0 1 S LFLF nextIndex:6
-!Mower2 5 1 W FFRFFR nextIndex:6
 Final Positions
 Mower1 0 1 S
-Mower2 5 1 W
 		step: 1
-	"Mower1 2 4 N FFFFFFF nextIndex:1
-	#Mower2 6 1 E FFFFFFFF nextIndex:1
-	&Mower3 1 3 S FFFFFFFFFFF nextIndex:1
-	#Mower4 0 1 W FFFFFFFF nextIndex:1
+	Mower1 1 2 W LFLF nextIndex:1
+	!Mower2 4 3 E FFRFFR nextIndex:1
 		step: 2
-	"Mower1 2 4 N FFFFFFF nextIndex:2
-	#Mower2 6 1 E FFFFFFFF nextIndex:2
-	&Mower3 1 2 S FFFFFFFFFFF nextIndex:2
-	#Mower4 0 1 W FFFFFFFF nextIndex:2
+	Mower1 0 2 W LFLF nextIndex:2
+	!Mower2 5 3 E FFRFFR nextIndex:2
 		step: 3
-	"Mower1 2 4 N FFFFFFF nextIndex:3
-	#Mower2 6 1 E FFFFFFFF nextIndex:3
-	&Mower3 1 1 S FFFFFFFFFFF nextIndex:3
-	#Mower4 0 1 W FFFFFFFF nextIndex:3
+	Mower1 0 2 S LFLF nextIndex:3
+	!Mower2 5 3 S FFRFFR nextIndex:3
 		step: 4
-	"Mower1 2 4 N FFFFFFF nextIndex:4
-	#Mower2 6 1 E FFFFFFFF nextIndex:4
-	&Mower3 1 0 S FFFFFFFFFFF nextIndex:4
-	#Mower4 0 1 W FFFFFFFF nextIndex:4
+	Mower1 0 1 S LFLF nextIndex:4
+	!Mower2 5 2 S FFRFFR nextIndex:4
 		step: 5
-	"Mower1 2 4 N FFFFFFF nextIndex:5
-	#Mower2 6 1 E FFFFFFFF nextIndex:5
-	&Mower3 1 0 S FFFFFFFFFFF nextIndex:5
-	#Mower4 0 1 W FFFFFFFF nextIndex:5
+	Mower1 0 1 S LFLF nextIndex:5
+	!Mower2 5 1 S FFRFFR nextIndex:5
 		step: 6
-	"Mower1 2 4 N FFFFFFF nextIndex:6
-	#Mower2 6 1 E FFFFFFFF nextIndex:6
-	&Mower3 1 0 S FFFFFFFFFFF nextIndex:6
-	#Mower4 0 1 W FFFFFFFF nextIndex:6
-		step: 7
-	"Mower1 2 4 N FFFFFFF nextIndex:7
-	#Mower2 6 1 E FFFFFFFF nextIndex:7
-	&Mower3 1 0 S FFFFFFFFFFF nextIndex:7
-	#Mower4 0 1 W FFFFFFFF nextIndex:7
-		step: 8
-	"Mower1 2 4 N FFFFFFF nextIndex:8
-	#Mower2 6 1 E FFFFFFFF nextIndex:8
-	&Mower3 1 0 S FFFFFFFFFFF nextIndex:8
-	#Mower4 0 1 W FFFFFFFF nextIndex:8
-		step: 9
-	"Mower1 2 4 N FFFFFFF nextIndex:9
-	#Mower2 6 1 E FFFFFFFF nextIndex:9
-	&Mower3 1 0 S FFFFFFFFFFF nextIndex:9
-	#Mower4 0 1 W FFFFFFFF nextIndex:9
-	
-step: 10
-	#Mower1 2 4 N FFFFFFF nextIndex:10
-	$Mower2 6 1 E FFFFFFFF nextIndex:10
-	'Mower3 1 0 S FFFFFFFFFFF nextIndex:10
-	$Mower4 0 1 W FFFFFFFF nextIndex:10
-	
-step: 11
-	#Mower1 2 4 N FFFFFFF nextIndex:11
-	$Mower2 6 1 E FFFFFFFF nextIndex:11
-	'Mower3 1 0 S FFFFFFFFFFF nextIndex:11
-	$Mower4 0 1 W FFFFFFFF nextIndex:11
+	Mower1 0 1 S LFLF nextIndex:6
+	!Mower2 5 1 W FFRFFR nextIndex:6
 	Final Positions
-	Mower1 2 4 N
-	Mower2 6 1 E
-	Mower3 1 0 S
-	Mower4 0 1 W
+	Mower1 0 1 S
+	Mower2 5 1 W
 
 	step: 1
 
- Mower1 2 4 S FFFFF nextIndex:1
+Mower1 1 1 N R nextIndex:1
 
-&Mower2 2 2 N FFFFFFFFFFF nextIndex:1
+Mower2 2 2 W R nextIndex:1
 
-	step: 2
+Mower3 3 3 S R nextIndex:1
 
- Mower1 2 4 S FFFFF nextIndex:2
-
-&Mower2 2 2 N FFFFFFFFFFF nextIndex:2
-
-	step: 3
-
- Mower1 2 4 S FFFFF nextIndex:3
-
-&Mower2 2 2 N FFFFFFFFFFF nextIndex:3
-
-	step: 4
-
- Mower1 2 4 S FFFFF nextIndex:4
-
-&Mower2 2 2 N FFFFFFFFFFF nextIndex:4
-
-	step: 5
-
- Mower1 2 4 S FFFFF nextIndex:5
-
-&Mower2 2 2 N FFFFFFFFFFF nextIndex:5
-
-	step: 6
-
- Mower1 2 4 S FFFFF nextIndex:6
-
-&Mower2 2 3 N FFFFFFFFFFF nextIndex:6
-
-	step: 7
-
- Mower1 2 4 S FFFFF nextIndex:7
-
-&Mower2 2 3 N FFFFFFFFFFF nextIndex:7
-
-	step: 8
-
- Mower1 2 4 S FFFFF nextIndex:8
-
-&Mower2 2 3 N FFFFFFFFFFF nextIndex:8
-
-	step: 9
-
- Mower1 2 4 S FFFFF nextIndex:9
-
-&Mower2 2 3 N FFFFFFFFFFF nextIndex:9
-
-
-step: 10
-
-!Mower1 2 4 S FFFFF nextIndex:10
-
-'Mower2 2 3 N FFFFFFFFFFF nextIndex:10
-
-
-step: 11
-
-!Mower1 2 4 S FFFFF nextIndex:11
-
-'Mower2 2 3 N FFFFFFFFFFF nextIndex:11
+Mower4 4 4 E R nextIndex:1
 
 Final Positions
 
-Mower1 2 4 S
+Mower1 1 1 N
 
-Mower2 2 3 N
+Mower2 2 2 W
+
+Mower3 3 3 S
+
+Mower4 4 4 E
+	step: 1
+"Mower1 2 4 N FFFFFFF nextIndex:1
+#Mower2 6 1 E FFFFFFFF nextIndex:1
+&Mower3 1 3 S FFFFFFFFFFF nextIndex:1
+#Mower4 0 1 W FFFFFFFF nextIndex:1
+	step: 2
+"Mower1 2 4 N FFFFFFF nextIndex:2
+#Mower2 6 1 E FFFFFFFF nextIndex:2
+&Mower3 1 2 S FFFFFFFFFFF nextIndex:2
+#Mower4 0 1 W FFFFFFFF nextIndex:2
+	step: 3
+"Mower1 2 4 N FFFFFFF nextIndex:3
+#Mower2 6 1 E FFFFFFFF nextIndex:3
+&Mower3 1 1 S FFFFFFFFFFF nextIndex:3
+#Mower4 0 1 W FFFFFFFF nextIndex:3
+	step: 4
+"Mower1 2 4 N FFFFFFF nextIndex:4
+#Mower2 6 1 E FFFFFFFF nextIndex:4
+&Mower3 1 0 S FFFFFFFFFFF nextIndex:4
+#Mower4 0 1 W FFFFFFFF nextIndex:4
+	step: 5
+"Mower1 2 4 N FFFFFFF nextIndex:5
+#Mower2 6 1 E FFFFFFFF nextIndex:5
+&Mower3 1 0 S FFFFFFFFFFF nextIndex:5
+#Mower4 0 1 W FFFFFFFF nextIndex:5
+	step: 6
+"Mower1 2 4 N FFFFFFF nextIndex:6
+#Mower2 6 1 E FFFFFFFF nextIndex:6
+&Mower3 1 0 S FFFFFFFFFFF nextIndex:6
+#Mower4 0 1 W FFFFFFFF nextIndex:6
+	step: 7
+"Mower1 2 4 N FFFFFFF nextIndex:7
+#Mower2 6 1 E FFFFFFFF nextIndex:7
+&Mower3 1 0 S FFFFFFFFFFF nextIndex:7
+#Mower4 0 1 W FFFFFFFF nextIndex:7
+	step: 8
+"Mower1 2 4 N FFFFFFF nextIndex:8
+#Mower2 6 1 E FFFFFFFF nextIndex:8
+&Mower3 1 0 S FFFFFFFFFFF nextIndex:8
+#Mower4 0 1 W FFFFFFFF nextIndex:8
+	step: 9
+"Mower1 2 4 N FFFFFFF nextIndex:9
+#Mower2 6 1 E FFFFFFFF nextIndex:9
+&Mower3 1 0 S FFFFFFFFFFF nextIndex:9
+#Mower4 0 1 W FFFFFFFF nextIndex:9
+
+step: 10
+#Mower1 2 4 N FFFFFFF nextIndex:10
+$Mower2 6 1 E FFFFFFFF nextIndex:10
+'Mower3 1 0 S FFFFFFFFFFF nextIndex:10
+$Mower4 0 1 W FFFFFFFF nextIndex:10
+
+step: 11
+#Mower1 2 4 N FFFFFFF nextIndex:11
+$Mower2 6 1 E FFFFFFFF nextIndex:11
+'Mower3 1 0 S FFFFFFFFFFF nextIndex:11
+$Mower4 0 1 W FFFFFFFF nextIndex:11
+Final Positions
+Mower1 2 4 N
+Mower2 6 1 E
+Mower3 1 0 S
+Mower4 0 1 W
+	step: 1
+ Mower1 2 4 S FFFFF nextIndex:1
+&Mower2 2 2 N FFFFFFFFFFF nextIndex:1
+	step: 2
+ Mower1 2 4 S FFFFF nextIndex:2
+&Mower2 2 2 N FFFFFFFFFFF nextIndex:2
+	step: 3
+ Mower1 2 4 S FFFFF nextIndex:3
+&Mower2 2 2 N FFFFFFFFFFF nextIndex:3
+	step: 4
+ Mower1 2 4 S FFFFF nextIndex:4
+&Mower2 2 2 N FFFFFFFFFFF nextIndex:4
+	step: 5
+ Mower1 2 4 S FFFFF nextIndex:5
+&Mower2 2 2 N FFFFFFFFFFF nextIndex:5
+	step: 6
+ Mower1 2 4 S FFFFF nextIndex:6
+&Mower2 2 3 N FFFFFFFFFFF nextIndex:6
+	step: 7
+ Mower1 2 4 S FFFFF nextIndex:7
+&Mower2 2 3 N FFFFFFFFFFF nextIndex:7
+	step: 8
+ Mower1 2 4 S FFFFF nextIndex:8
+&Mower2 2 3 N FFFFFFFFFFF nextIndex:8
+	step: 9
+ Mower1 2 4 S FFFFF nextIndex:9
+&Mower2 2 3 N FFFFFFFFFFF nextIndex:9
+
+step: 10
+!Mower1 2 4 S FFFFF nextIndex:10
+'Mower2 2 3 N FFFFFFFFFFF nextIndex:10
+
+step: 11
+!Mower1 2 4 S FFFFF nextIndex:11
+'Mower2 2 3 N FFFFFFFFFFF nextIndex:11
+Final Positions
+Mower1 2 4 S
+Mower2 2 3 N
